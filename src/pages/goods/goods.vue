@@ -72,7 +72,7 @@
             <text class="value">{{ item.value }}</text>
           </view>
         </view>
-        <!-- 图片详情 -->
+        <!-- 图片 详情 -->
         <image
           v-for="item in goodsData?.details.pictures"
           :key="item"
